@@ -1,0 +1,73 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;   /*para que no se repita la imagen del background*/
+    background-size: cover;
+}
+img[src="img/logo.png"] {
+    width: 160px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.884);
+    color: rgb(158, 158, 158);
+    width: 24%;
+    padding: 30px 60px 100px 60px;  /*arriba derecha abajo izquierda */
+    margin: 0 auto;
+}
+.txt-blanco {
+    color: white;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;  /*para que se ajuste el width de los input, ya que estos bloques ya tienen un padding que se le suma al 100%*/
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    background-color: red;
+    color: white;
+    font-size: 17  px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.izq {
+    width: 50%;
+    float: left;
+    font-size: 14px;
+}
+.der {
+    width: 50%;
+    float: right;
+    font-size: 14px;
+    text-align: right;
+}
+.cb {
+    clear: both;
+}
+input[type="checkbox"] {
+    width: 14px;
+}
+a {
+    text-decoration: none;
+}
+.txt-22 {
+    font-size: 22px;
+}
+.txt-gris {
+    color: rgb(140, 140, 140);
+}
+.text-azul {
+    color: rgb(23, 41, 255);
+}
+.espejo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
